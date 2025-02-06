@@ -15,7 +15,6 @@ The Microservice was developed from Fernanda Kipper for your [Youtube Channel](h
 - [Configuration](#configuration)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Database](#database)
 - [Contributing](#contributing)
 
 ## Installation
@@ -35,6 +34,15 @@ aws.region=us-east-1
 aws.accessKeyId=1111111
 aws.secretKey=111111
 ```
+
+## Configuration
+
+- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Web](https://spring.io/projects/spring-ws)
+- [Spring DevTools](https://docs.spring.io/spring-boot/reference/using/devtools.html)
+- [JUnit5](https://docs.spring.io/spring-framework/reference/testing/annotations/integration-junit-jupiter.html)
+- [Mockito](https://site.mockito.org/)
+
 ## Usage
 
 1. Start the application with Maven

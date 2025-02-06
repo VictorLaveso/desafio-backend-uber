@@ -7,7 +7,7 @@
 
 This project is an API built using **Java, Java Spring, AWS Simple Email Service.**
 
-The Microservice was developed for my [Youtube Channel](https://youtu.be/eFgeO9M9lLw?si=uyhUXrR-NLEpBW6p), to demonstrate how to solve the [Uber Backend Challenge](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md).
+The Microservice was developed from Fernanda Kipper for your [Youtube Channel](https://youtu.be/eFgeO9M9lLw?si=uyhUXrR-NLEpBW6p), to demonstrate how to solve the [Uber Backend Challenge](https://github.com/uber-archive/coding-challenge-tools/blob/master/coding_challenge.md). I rewrote the code and changed only a small part of it in addition to implementing the tests.
 
 ## Table of Contents
 
@@ -51,7 +51,7 @@ POST /api/email/send - Send a e-mail from your sender to the destination
 **BODY**
 ```json
 {
-  "to": "liveskipperdev@gmail.com",
+  "to": "teste@teste.com",
   "subject": "teste",
   "body": "teste"
 }

@@ -47,13 +47,15 @@ aws.secretKey=111111
 
 1. Start the application with Maven
 2. The API will be accessible at http://localhost:8080
+3. I chose to send with HTTPie
 
 ## API Endpoints
 The API provides the following endpoints:
 
 **GET EMAIL**
 ```markdown
-POST /api/email/send - Send a e-mail from your sender to the destination
+POST localhost:8080/api/email < data.json - Send a e-mail from your sender to the destination with HTTPie
+
 ```
 
 **BODY**
